@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<style>
+	a:link    {color:#000000; background-color:transparent; text-decoration:none}
+	a:visited {color:#000000; background-color:transparent; text-decoration:none}
+	a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+	a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+        #box{
+            background-color: #ffffff;
+            width: 500px;
+            padding: 25px solid black;
+            border: 2px solid black;
+            margin: 25px solid black;
+        }
+        table, th, td {
+            border: 2px solid red;
+          
+            border-collapse: collapse;
+        text-align: center;
+        }
+        th, td {
+            padding: 5px;
+        }        
+</style>
+<head>
+    <title>Cross Country School Records</title>
+    <meta charset='utf-8'>
+   
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href='css/hoverbox.css' type="text/css" media="screen, projection" />
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" href='css/ie_fixes.css' type="text/css" media="screen, projection" />
+    <![endif]-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="styles.css">
+   
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   
+    <script src="script.js"></script>
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/viking.ico" />
+
+</head>
+
+<body>
+<div id='cssmenu'>
+    <ul>
+   
+    <li>
+      <a href='index.htm'>Home</a>
+    </li>
+   
+    <li class='active has-sub'>
+      <a href='ccseasonresults.htm'>Cross Country</a>
+      
+      <ul>
+         
+        <li>
+          <a href='ccseasonresults.htm'>Season Results</a>
+            
+        </li>
+        <li>
+          <a href='ccschoolrecords.htm'>School Records</a>
+            
+        </li>
+        <li>
+          <a href='state.htm'>State</a>
+            
+        </li>
+        <li>
+          <a href='regional.htm'>Regional/District</a>
+            
+        </li>
+        <li>
+          <a href='district.htm'>District/Sectional</a>
+            
+        </li>
+        <li>
+          <a href='conference.htm'>Conference</a>
+            
+        </li>
+        <li>
+          <a href='collegiate.htm'>Collegiate Runners</a>
+            
+        </li>
+        <li>
+          <a href='coaches.htm'>Coaches</a>
+            
+        </li>
+        <li>
+          <a href='maps.htm'>Course Maps</a>
+            
+        </li>
+      </ul>
+    </li>
+    <li class='active has-sub'>
+      <a href='tseasonresults.htm'>Track and Field</a>
+      
+      <ul>
+         
+        <li>
+          <a href='tseasonresults.htm'>Season Results</a>
+            
+        </li>
+        <li>
+          <a href='tschoolrecords.htm'>School Records</a>
+            
+        </li>
+        <li>
+          <a href='statet.htm'>State</a>
+            
+        </li>
+        <li>
+          <a href='regionalt.htm'>Regional/District</a>
+            
+        </li>
+        <li>
+          <a href='collegiatet.htm'>Collegiate Runners</a>
+            
+        </li>
+        <li>
+          <a href='coachest.htm'>Coaches</a>
+            
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href='more.htm'>More Vikings</a>
+      
+    </li>
+    <li>
+      <a href='new.htm'>What's New?</a>
+      
+    </li>
+  
+</div>
+  <center>
+  <img src="images/viking.jpg">  
+  <table>
+  <br>
+  <br>
+  <tr>
+    <td colspan="7"><font size=5><b>School Records</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="3"><i><b>Overall Boys (5K)</b></i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><b><i>Overall Girls (5K)</b></i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">Loren Kranz</a></td><td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">16:14</a></td><td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">1983</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">Susan Helms</a></td><td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">20:04</a></td><td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">1986</a></td>  
+  </tr>
+  <tr>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><i>Boys (5K) - Senior</i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i>Girls (5K) - Senior</i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">Loren Kranz</a></td><td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">16:14</a></td><td><a href="CC/Seasons/1983cc/HSOldFortInvite.pdf">1983</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/2007cc/HSGGalionDistrict.pdf">Ariel Collins</a></td><td><a href="CC/Seasons/2007cc/HSGGalionDistrict.pdf">20:59.05</a></td><td><a href="CC/Seasons/2007cc/HSGGalionDistrict.pdf">2007</a></td>  
+  </tr>
+  <tr>
+    <td colspan="3"><i>Boys (5K) - Junior</i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i>Girls (5K) - Junior</i></td>
+  </tr>
+  <tr>
+    <td><a href="http://firelandsconferencehistory.com/XC82.html">Loren Kranz</a></td><td><a href="http://firelandsconferencehistory.com/XC82.html">16:23</a></td><td><a href="http://firelandsconferencehistory.com/XC82.html">1982</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/1987cc/HSTiffinRegional.pdf">Susan Helms</a></td><td><a href="CC/Seasons/1987cc/HSTiffinRegional.pdf">20:21</a></td><td><a href="CC/Seasons/1987cc/HSTiffinRegional.pdf">1987</a></td>  
+  </tr>
+  <tr>
+    <td colspan="3"><i>Boys (5K) - Sophomore</i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i>Girls (5K) - Sophomore</i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/2018cc/HSBLibertyCenterInvite.pdf">Levi Robinson</a></td><td><a href="CC/Seasons/2018cc/HSBLibertyCenterInvite.pdf">16:48.98</a></td><td><a href="CC/Seasons/2018cc/HSBLibertyCenterInvite.pdf">2018</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">Susan Helms</a></td><td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">20:04</a></td><td><a href="CC/Seasons/1986cc/HSGalionDistrict.pdf#page=3">1986</a></td>  
+  </tr>
+  <tr>
+    <td colspan="3"><i>Boys (5K) - Freshman</i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i>Girls (5K) - Freshman</i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/2017cc/HSBBCInvite.pdf">Levi Robinson</a></td><td><a href="CC/Seasons/2017cc/HSBBCInvite.pdf">17:02.29</a></td><td><a href="CC/Seasons/2017cc/HSBBCInvite.pdf">2017</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/2012cc/HSGBettsvilleDistrict.pdf">Hailey Barber</a></td><td><a href="CC/Seasons/2012cc/HSGBettsvilleDistrict.pdf">20:06.82</a></td><td><a href="CC/Seasons/2012cc/HSGBettsvilleDistrict.pdf">2012</a></td>  
+  </tr>
+  <tr>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><i><b>Boys (2.5 mile)</b></i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i><b>Girls (2.5 mile)</b></i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/1980cc/OntarioInvite.pdf">Mike Beck</a></td><td><a href="CC/Seasons/1980cc/OntarioInvite.pdf">13:36</a></td><td><a href="CC/Seasons/1980cc/OntarioInvite.pdf">1980</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/1981cc/DistrictOfficial.pdf">Montelle Levering</a></td><td><a href="CC/Seasons/1981cc/DistrictOfficial.pdf">16:02</a></td><td><a href="CC/Seasons/1981cc/DistrictOfficial.pdf">1981</a></td>  
+  </tr>
+  <tr>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><i><b>Boys (2 Mile - HS)</b></i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i><b>Girls (2 Mile - HS)</b></i></td>
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/1973cc/73SeasonTimes.pdf#page=29">Ken Lucas</a></td><td><a href="CC/Seasons/1973cc/73SeasonTimes.pdf#page=29">9:52</a></td><td><a href="CC/Seasons/1973cc/73SeasonTimes.pdf#page=29">1973</a></td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/2019cc/HSGNewLondonInvite.pdf">Eliza Redden</a></td><td><a href="CC/Seasons/2019cc/HSGNewLondonInvite.pdf">14:34.99</a></td><td><a href="CC/Seasons/2019cc/HSGNewLondonInvite.pdf">2019</a></td> 
+  </tr>
+  <tr>
+    <td><a href="CC/Seasons/1974cc/74SeasonTimes.pdf#page=25">Steve Lewis</a></td><td><a href="CC/Seasons/1974cc/74SeasonTimes.pdf#page=25">9:52</a></td><td><a href="CC/Seasons/1974cc/74SeasonTimes.pdf#page=25">1974</a></td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td></td><td></td>  
+  </tr>
+  <tr>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+    <td bgcolor="FF0000"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><i><b>Boys (2 Mile - MS)</b></i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="3"><i><b>Girls (2 Mile - MS)</b></i></td>
+  </tr>
+  <tr>
+    <td>Jamie Beck</td><td>11:37</td><td>1982</td>
+    <td bgcolor="FF0000"></td>
+    <td><a href="CC/Seasons/2011cc/MSGGalion.pdf">Kendall Sanders</a></td><td><a href="CC/Seasons/2011cc/MSGGalion.pdf">13:30.6</a></td><td><a href="CC/Seasons/2011cc/MSGGalion.pdf">2011</a></td>  
+  </tr>
+</table>
+  <br>The 2.5 mile record may not be accurate as I have limited results from 1977-1981. 
+  <br>
+  <br>
+<table>
+  <tr>
+    <td colspan="11"><font size=5><b>Top 5K Times</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="5"><i><b><a href="allboys5k.pdf"><u>All Boys 5K Times</u></b></i></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="5"><b><i><a href="allgirls5k.pdf"><u>All Girls 5K Times</u></a></b></i></td>
+  </tr>
+  <tr>
+    <td colspan="5"><b>Sub 17:00 Times</b></td>
+    <td bgcolor="FF0000"></td>
+    <td colspan="5"><b>Sub 21:00 Times</b></td>
+  </tr>
+  <tr>
+    <td></td><td>Name</td><td>Time</td><td>Course</td><td>Date</td>
+    <td bgcolor="FF0000"></td><td></td>
+    <td>Name</td><td>Time</td><td>Course</td><td>Date</td>
+  </tr>
+  <tr>
+    <td>1</td><td>Loren Kranz</td><td>16:14</td><td>Old Fort</td><td>9/22/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td>1</td><td>Susan Helms</td><td>20:04</td><td>Galion</td><td>10/18/1986</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Loren Kranz</td><td>16:23</td><td>New London</td><td>10/12/1982</td>
+    <td bgcolor="FF0000"></td>
+    <td>2</td><td>Hailey Barber</td><td>20:06.82</td><td>Bettsville</td><td>10/20/2012</td>
+  </tr>
+  <tr>
+    <td>3</td><td>Levi Robinson</td><td>16:27.76</td><td>Buckeye Central</td><td>9/28/2019</td>
+    <td bgcolor="FF0000"></td>
+    <td>3</td><td>Kendall Sanders</td><td>20:12.19</td><td>Bettsville</td><td>10/20/2012</td>
+  </tr>
+  <tr>
+    <td>4</td><td>Loren Kranz</td><td>16:36</td><td>Plymouth</td><td>9/9/1982</td>
+    <td bgcolor="FF0000"></td>
+    <td>4</td><td>Jenny Adkins</td><td>20:18</td><td>St. Paul</td><td>10/12/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Loren Kranz</td><td>16:36</td><td>Ontario</td><td>10/2/1982</td>
+    <td bgcolor="FF0000"></td>
+    <td>5</td><td>Jenny Adkins</td><td>20:19</td><td>Western Reserve</td><td>10/11/1986</td>
+  </tr>
+  <tr>
+    <td>6</td><td>Wendell Burton</td><td>16:42</td><td>Western Reserve</td><td>10/1/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td>6</td><td>Jenny Chase</td><td>20:20</td><td>Old Fort</td><td>9/18/1986</td>
+  </tr>
+  <tr>
+    <td></td><td>Wendell Burton</td><td>16:42</td><td>Galion</td><td>10/22/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td>7</td><td>Susan Helms</td><td>20:21</td><td>Tiffin</td><td>10/31/1987</td>
+  </tr>
+  <tr>
+    <td>8</td><td>Josh Schrader</td><td>16:42.3</td><td>Galion</td><td>9/17/2011</td>
+    <td bgcolor="FF0000"></td>
+    <td>8</td><td>Jenny Adkins</td><td>20:24</td><td>Galion</td><td>10/18/1986</td>
+  </tr>
+  <tr>
+    <td>9</td><td>Loren Kranz</td><td>16:43</td><td>Ontario</td><td>10/1/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td>9</td><td>Kendall Sanders</td><td>20:24.8</td><td>Galion</td><td>9/14/2013</td>
+  </tr>
+  <tr>
+    <td>10</td><td>Loren Kranz</td><td>16:45</td><td>Monroeville</td><td>10/18/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td>10</td><td>Kendall Sanders</td><td>20:27.75</td><td>Wynford</td><td>9/3/2013</td>
+  </tr>
+  <tr>
+    <td>11</td><td>Levi Robinson</td><td>16:45.4</td><td>Galion</td><td>9/14/2019</td>
+    <td bgcolor="FF0000"></td>
+    <td>11</td><td>Kendall Sanders</td><td>20:32.3</td><td>St. Paul</td><td>10/12/2013</td>
+  </tr>
+  <tr>
+    <td>12</td><td>Loren Kranz</td><td>16:46</td><td>Tiffin Sectional</td><td>10/16/1982</td>
+    <td bgcolor="FF0000"></td>
+    <td>12</td><td>Jenny Adkins</td><td>20:33</td><td>Old Fort</td><td>9/18/1986</td>
+  </tr>
+  <tr>
+    <td></td><td>Loren Kranz</td><td>16:46</td><td>St. Paul</td><td>10/8/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Jenny Adkins</td><td>20:33</td><td>Elyria</td><td>10/25/1986</td>
+  </tr>
+  <tr>
+    <td></td><td>Jamie Beck</td><td>16:46</td><td>St. Paul</td><td>10/5/1985</td>
+    <td bgcolor="FF0000"></td>
+    <td>14</td><td>Susan Helms</td><td>20:34</td><td>Galion</td><td>10/24/1987</td>
+  </tr>
+  <tr>
+    <td>15</td><td>Levi Robinson</td><td>16:47.52</td><td>Tiffin</td><td>10/26/2019</td>
+    <td bgcolor="FF0000"></td>
+    <td>15</td><td>Kendall Sanders</td><td>20:34.97</td><td>Tiffin</td><td>9/7/2013</td>
+  </tr>
+  <tr>
+    <td>16</td><td>Levi Robinson</td><td>16:48.98</td><td>Liberty Center</td><td>9/22/2018</td>
+    <td bgcolor="FF0000"></td>
+    <td>16</td><td>Susan Helms</td><td>20:36</td><td>Elyria</td><td>10/25/1986</td>
+  </tr>
+  <tr>
+    <td>17</td><td>Loren Kranz</td><td>16:50</td><td>Monroeville</td><td>9/15/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td>17</td><td>Jenny Adkins</td><td>20:38</td><td>St. Paul</td><td>10/5/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Loren Kranz</td><td>16:50</td><td>Ohio State</td><td>11/5/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Jenny Chase</td><td>20:38</td><td>St. Paul</td><td>10/12/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Wendell Burton</td><td>16:50</td><td>Mapleton</td><td>10/17/1987</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Jenny Chase</td><td>20:38</td><td>Lorain</td><td>10/26/1985</td>
+  </tr>
+  <tr>
+    <td>20</td><td>Jamie Beck</td><td>16:51</td><td>St. Paul</td><td>10/12/1985</td>
+    <td bgcolor="FF0000"></td>
+    <td>20</td><td>Kendall Sanders</td><td>20:38.63</td><td>Liberty Center</td><td>9/21/2013</td>
+  </tr>
+  <tr>
+    <td>21</td><td>Nathaniel Redden</td><td>16:51.38</td><td>Crestview</td><td>10/15/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td>21</td><td>Kendall Sanders</td><td>20:40.7</td><td>Galion</td><td>9/15/2012</td>
+  </tr>
+  <tr>
+    <td>22</td><td>Levi Robinson</td><td>16:51.9</td><td>Tiffin</td><td>9/7/2019</td>
+    <td bgcolor="FF0000"></td>
+    <td>22</td><td>Susan Helms</td><td>20:41</td><td>Mapleton</td><td>10/17/1987</td>
+  </tr>
+  <tr>
+    <td>23</td><td>Wendell Burton</td><td>16:52</td><td>Plymouth</td><td>10/11/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td>23</td><td>Halei Lunceford</td><td>20:41.31</td><td>Bettsville</td><td>10/20/2012</td>
+  </tr>
+  <tr>
+    <td>24</td><td>Nathaniel Redden</td><td>16:52.76</td><td>New London</td><td>10/8/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td>24</td><td>Jenny Chase</td><td>20:42</td><td>Western Reserve</td><td>10/11/1986</td>
+  </tr>
+  <tr>
+    <td>25</td><td>Loren Kranz</td><td>16:53</td><td>Lima</td><td>10/29/1983</td>
+    <td bgcolor="FF0000"></td>
+    <td>25</td><td>Jenny Adkins</td><td>20:43</td><td>Monroeville</td><td>9/12/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Jeff Burton</td><td>16:53</td><td>Galion</td><td>10/18/1986</td>
+    <td bgcolor="FF0000"></td>
+    <td>26</td><td>Susan Helms</td><td>20:47</td><td>St. Paul</td><td>10/4/1986</td>
+  </tr>
+  <tr>
+    <td>27</td><td>Nathaniel Redden</td><td>16:53.4</td><td>Galion</td><td>9/17/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Susan Helms</td><td>20:47</td><td>Western Reserve</td><td>10/11/1986</td>
+  </tr>
+  <tr>
+    <td>28</td><td>Wendell Burton</td><td>16:54</td><td>Galion</td><td>9/17/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Jenny Chase</td><td>20:47</td><td>Galion</td><td>10/18/1986</td>
+  </tr>
+  <tr>
+    <td>29</td><td>Wendell Burton</td><td>16:55</td><td>Plymouth</td><td>10/8/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td>29</td><td>Jenny Chase</td><td>20:48</td><td>St. Paul</td><td>10/5/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Wendell Burton</td><td>16:55</td><td>Plymouth</td><td>10/8/1988</td>
+    <td bgcolor="FF0000"></td>
+    <td>30</td><td>Susan Helms</td><td>20:50</td><td>Ontario</td><td>9/26/1987</td>
+  </tr>
+  <tr>
+    <td>31</td><td>Jeff Burton</td><td>16:56</td><td>Western Reserve</td><td>10/11/1986</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Jenny Chase</td><td>20:50</td><td>Plymouth</td><td>10/8/1987</td>
+  </tr>
+  <tr>
+    <td>32</td><td>Nathaniel Redden</td><td>16:56.82</td><td>Bucyrus</td><td>9/3/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td>32</td><td>Kendall Sanders</td><td>20:51.41</td><td>Plymouth</td><td>10/13/2012</td>
+  </tr>
+  <tr>
+    <td>33</td><td>Levi Robinson</td><td>16:56.88</td><td>Buckeye Central</td><td>9/29/2018</td>
+    <td bgcolor="FF0000"></td>
+    <td>33</td><td>Hailey Barber</td><td>20:54.81</td><td>Tiffin</td><td>9/7/2013</td>
+  </tr>
+  <tr>
+    <td>34</td><td>Wendell Burton</td><td>16:57</td><td>Western Reserve</td><td>10/11/1986</td>
+    <td bgcolor="FF0000"></td>
+    <td>34</td><td>Susan Helms</td><td>20:55</td><td>Galion</td><td>9/20/1987</td>
+  </tr>
+  <tr>
+    <td>35</td><td>Nathaniel Redden</td><td>16:57.2</td><td>LaVern Gibson</td><td>11/13/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td>35</td><td>Jenny Adkins</td><td>20:58</td><td>Scioto Downs</td><td>11/1/1986</td>
+  </tr>
+  <tr>
+    <td>36</td><td>Nathaniel Redden</td><td>16:57.3</td><td>National Trail</td><td>11/5/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td>36</td><td>Hailey Barber</td><td>20:58.73</td><td>Wynford</td><td>9/3/2013</td>
+  </tr>
+  <tr>
+    <td>37</td><td>Loren Kranz</td><td>16:58</td><td>Plymouth</td><td>9/16/1982</td>
+    <td bgcolor="FF0000"></td>
+    <td>37</td><td>Jenny Adkins</td><td>20:59</td><td>Willard</td><td>9/24/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Jamie Beck</td><td>16:58</td><td>Plymouth</td><td>9/26/1985</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Susan Helms</td><td>20:59</td><td>St. Paul</td><td>10/12/1985</td>
+  </tr>
+  <tr>
+    <td></td><td>Jeff Burton</td><td>16:58</td><td>Old Fort</td><td>9/18/1986</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Susan Helms</td><td>20:59</td><td>Sterkle Park Mansfield</td><td>9/15/1987</td>
+  </tr>
+  <tr>
+    <td>40</td><td>Nathaniel Redden</td><td>16:58.6</td><td>Galion</td><td>10/22/2016</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td>Ariel Collins</td><td>20:59</td><td>Galion</td><td>10/20/2007</td>
+  </tr>
+  <tr>
+    <td>41</td><td>Wendell Burton</td><td>16:59</td><td>Old Fort</td><td>9/18/1986</td>
+    <td bgcolor="FF0000"></td>
+    <td>41</td><td>Jessica Porter</td><td>20:59.04</td><td>Buckeye Central</td><td>10/3/2015</td>
+  </tr>
+  <tr>
+    <td>42</td><td>Levi Robinson</td><td>16:59.2</td><td>Galion</td><td>10/20/2018</td>
+    <td bgcolor="FF0000"></td>
+    <td></td><td></td><td></td><td></td><td></td>
+  </tr>
+</center>
+</html>
