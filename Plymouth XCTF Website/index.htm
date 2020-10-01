@@ -5,10 +5,11 @@
 	a:visited {color:#000000; background-color:transparent; text-decoration:none}
 	a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
 	a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+   
 	
 </style>
 <head>
-  
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <title>Plymouth Track and Field/Cross Country</title>
   
 <meta charset='utf-8'>
@@ -36,97 +37,69 @@
 </head>
 
 <body>
-<div id='cssmenu'>
-    <ul>
-   
-    <li>
-      <a href='index.htm'>Home</a>
-    </li>
-   
-    <li class='active has-sub'>
-      <a href='#'>Cross Country</a>
+    
+    <!--navbar-->
       
-      <ul>
-         
-        <li>
-          <a href='ccseasonresults.htm'>Season Results</a>
-            
-        </li>
-        <li>
-          <a href='ccschoolrecords.htm'>School Records</a>
-            
-        </li>
-        <li>
-          <a href='state.htm'>State</a>
-            
-        </li>
-        <li>
-          <a href='regional.htm'>Regional/District</a>
-            
-        </li>
-        <li>
-          <a href='district.htm'>District/Sectional</a>
-            
-        </li>
-        <li>
-          <a href='conference.htm'>Conference</a>
-            
-        </li>
-        <li>
-          <a href='collegiate.htm'>Collegiate Runners</a>
-            
-        </li>
-        <li>
-          <a href='coaches.htm'>Coaches</a>
-            
-        </li>
-        <li>
-          <a href='maps.htm'>Course Maps</a>
-            
-        </li>
-      </ul>
-    </li>
-    <li class='active has-sub'>
-      <a href='#'>Track and Field</a>
-      
-      <ul>
-         
-        <li>
-          <a href='tseasonresults.htm'>Season Results</a>
-            
-        </li>
-        <li>
-          <a href='tschoolrecords.htm'>School Records</a>
-            
-        </li>
-        <li>
-          <a href='statet.htm'>State</a>
-            
-        </li>
-        <li>
-          <a href='regionalt.htm'>Regional/District</a>
-            
-        </li>
-        <li>
-          <a href='collegiatet.htm'>Collegiate Runners</a>
-            
-        </li>
-        <li>
-          <a href='coachest.htm'>Coaches</a>
-            
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='more.htm'>More Vikings</a>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:black;">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav nav-pills mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link active" href="index.htm">Home <span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cross Country</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="ccseasonresults.htm">Season Results</a>
+      <a class="dropdown-item" href="ccschoolrecords.htm">School Records</a>
+      <a class="dropdown-item" href="state.htm">State</a>
+      <a class="dropdown-item" href="regional.htm">Regional/District</a>
+      <a class="dropdown-item" href="district.htm">District/Sectional</a>
+      <a class="dropdown-item" href="conference.htm">Conference</a>
+      <a class="dropdown-item" href="collegiate.htm">Collegiate Runners</a>
+      <a class="dropdown-item" href="maps.htm">Course Maps</a>
+     
+    </div>
+  </li>
+     <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Track and Field</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="tseasonresults.htm">Season Results</a>
+      <a class="dropdown-item" href="tschoolrecords.htm">School Records</a>
+      <a class="dropdown-item" href="statet.htm">State</a>
+      <a class="dropdown-item" href="regionalt.htm">Regional/District</a>
+      <a class="dropdown-item" href="district.htm">District/Sectional</a>
+      <a class="dropdown-item" href="collegiatet.htm">Collegiate Runners</a>
+      <a class="dropdown-item" href="coachest.htm">Coaches</a>
+     
+    </div>
+  </li>
+        <li class="nav-item">
+      <a class="nav-link" href='more.htm'>More Vikings</a>
       
     </li>
-    <li>
-      <a href='new.htm'>What's New?</a>
+    <li class="nav-item">
+      <a class="nav-link" href='new.htm'>What's New?</a>
       
     </li>
-  
-</div>
+            
+    <li class="nav-item">
+    <form class="form-inline my-2 my-lg-0">
+     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+        </li>  
+        </ul>
+     
+  </div>
+</nav>  
+    
+    
+
   <p style="font-family:Verdana">
   <font color=#ff0000 size=37>  
   <center>Plymouth-Shiloh
@@ -144,7 +117,7 @@
   <br>August 6th, 2021
   <br><a href="firemansfestival.htm"><u>Register Here</u></a>
     <br>
-    <br><b><u><br>Attention former athletes and coaches:</b></u> 
+    <br><b><u><br>Attention former athletes and coaches:</u></b> 
 <font color=#ff0000>
     <br>If you have anything to add to the site or find anything
     <br>at all that needs to be corrected, please email me at
@@ -153,7 +126,11 @@
     <br>To navigate on a cell phone, <a href="cellphone.htm"><b>CLICK HERE</b></a>
     </font>
 </center>
-  
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
 </body>
 
 </html>
